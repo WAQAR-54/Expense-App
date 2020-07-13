@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header() {
   return (
-    <div >
-     HELLO 
-    </div>
+    <h1>
+        Expense Tracker App by Waqar Azeem
+    </h1>
   );
 }
 
