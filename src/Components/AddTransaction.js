@@ -1,10 +1,10 @@
 import React ,{useState} from 'react';
 import './Account.css';
-import { useState } from 'react';
+//import { useState } from 'react';
 
 function AddTransaction() {
-  cnst [description , setdescription]= useState();
-  cnst [transactionAmount , settransactionAmount]= useState();
+  const [description, setdescription]= useState();
+  const [transactionAmount , settransactionAmount]= useState();
 
 
   return (
@@ -17,7 +17,9 @@ function AddTransaction() {
                 </label>
             <input type="text" 
                 id="Description" 
-                placeholder="Detail of Transaction">
+                placeholder="Detail of Transaction"
+                value={description}
+                >
             </input>
           </div>
           <div className="form-control">
@@ -26,7 +28,9 @@ function AddTransaction() {
                 </label>
             <input type="Number" 
                 id="TransactionAmount" 
-                placeholder="Enter Transaction Amount">
+                placeholder="Enter Transaction Amount"
+                value={transactionAmount}
+                >
             </input>
             <button className="btn">Add Transaction</button>
           </div>
