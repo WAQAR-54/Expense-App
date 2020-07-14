@@ -13,7 +13,7 @@ function AccountSummery() {
         <div>
             <h4>Expenses</h4>
             <p className="money-minus">
-              $0.00
+              $npm0.00
             </p>
         </div>
 
