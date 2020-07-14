@@ -1,7 +1,12 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './Account.css';
+import { useState } from 'react';
 
 function AddTransaction() {
+  cnst [description , setdescription]= useState();
+  cnst [transactionAmount , settransactionAmount]= useState();
+
+
   return (
     <div >
       <h3>Add New Transaction</h3>
