@@ -19,7 +19,8 @@ function AddTransaction() {
                 id="Description" 
                 placeholder="Detail of Transaction"
                 value={description}
-                >
+               onChange={(e)=> setdescription(e.target.value)}
+               >
             </input>
           </div>
           <div className="form-control">
@@ -30,6 +31,7 @@ function AddTransaction() {
                 id="TransactionAmount" 
                 placeholder="Enter Transaction Amount"
                 value={transactionAmount}
+                onChange={(e)=> settransactionAmount(e.target.value)}
                 >
             </input>
             <button className="btn">Add Transaction</button>
