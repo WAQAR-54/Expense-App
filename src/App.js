@@ -25,7 +25,8 @@ function App() {
           <AddTransaction />
         </div>
       </GlobalProvider>
-    </div>
+      
+        </div>
   );
 }
 
