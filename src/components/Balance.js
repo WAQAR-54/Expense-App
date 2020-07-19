@@ -3,6 +3,7 @@ import React, { useContext } from 'react'
 // Import the Global State
 import { GlobalContext } from '../context/GlobalState';
 
+
 export const Balance = () => {
 
      const { transactions } = useContext(GlobalContext);
